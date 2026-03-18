@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ひなちゃん成長記録</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="slideshow-container">
+        <h1 class="title">🌻 ひなちゃん成長記録 🌻</h1>
+        <div class="image-wrapper">
+            <img id="slide-image" src="gazou/0topgazou.JPG" alt="ひなちゃんの写真" onerror="handleImageError(this)">
+        </div>
+        <div class="controls">
+            <button id="play-btn">▶ 再生</button>
+            <button id="pause-btn" style="display:none;">⏸ 停止</button>
+        </div>
+        <div class="message">
+            <p>がんばれ、なおちゃん！<br>ひなちゃんおおきくなったよ</p>
+        </div>
+        <!-- BGM音声ファイル -->
+        <audio id="bgm-audio" src="260318hinaslideBGM.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
