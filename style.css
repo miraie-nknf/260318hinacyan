@@ -24,7 +24,7 @@ body {
 .title {
     color: #ff8c00;
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .image-wrapper {
@@ -51,7 +51,7 @@ body {
 }
 
 .controls {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 button {
@@ -79,7 +79,7 @@ button:active {
 
 .message {
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     color: #ff8c00;
     line-height: 1.5;
@@ -90,7 +90,7 @@ button:active {
 @media screen and (max-width: 600px) {
     .title {
         font-size: 1.8rem;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .image-wrapper {
@@ -105,6 +105,7 @@ button:active {
 
     .message {
         font-size: 1.2rem;
-        margin-top: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 }
