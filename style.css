@@ -1,14 +1,15 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 40px 0;
+    /* 上下に余白を追加してスクロールの遊びを作る */
     background-color: #fff9e6;
     /* 温かみのある背景色 */
     font-family: 'Kosugi Maru', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100dvh;
+    /* スマホのバーを考慮した高さ */
 }
 
 .slideshow-container {
