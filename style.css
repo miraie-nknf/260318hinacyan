@@ -78,7 +78,8 @@ button:active {
 }
 
 .message {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     font-size: 1.5rem;
     color: #ff8c00;
     line-height: 1.5;
