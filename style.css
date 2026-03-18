@@ -89,6 +89,19 @@ button:active {
 
 /* --- スマホ画面（横幅600px以下）向けの最適化 --- */
 @media screen and (max-width: 600px) {
+    body {
+        display: block;
+        /* 画面中央固定をやめ、上から順に表示させる */
+        padding: 20px 15px 120px 15px;
+        /* 一番下に120pxの巨大な余白を作り、確実につき抜けてスクロールできるようにする */
+    }
+
+    .slideshow-container {
+        margin: 0 auto;
+        /* 左右の中央配置はキープ */
+        padding: 20px;
+    }
+
     .title {
         font-size: 1.8rem;
         margin-bottom: 0px;
