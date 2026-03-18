@@ -35,6 +35,12 @@ function nextSlide() {
     // 0.5秒のフェードアウト後に画像を切り替える
     setTimeout(() => {
         currentIndex++;
+
+        // 削除した「42510-2603.JPG」（4番目の画像）を事前にスキップ
+        if (currentIndex === 4) {
+            currentIndex++;
+        }
+
         slideImage.src = `gazou/${currentIndex}2510-2603.JPG`;
         slideImage.classList.remove('fade-out');
     }, 500);
